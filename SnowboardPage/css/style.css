@@ -1,0 +1,469 @@
+/*Fonts */
+
+@font-face {
+    font-family     : FindetNemo;
+    src             : url(fonts/FindetNemo.ttf);
+}
+
+
+/*end*/
+
+#container {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+}
+
+body{
+    
+    margin          : auto;
+    padding         : inherit;
+    font-family     : FindetNemo;
+    display         : inline-block;
+    font-size       : 15;
+    color           : white;
+    height          : 1370;
+    background-color:white;
+}
+
+
+/*header */
+#nav-options{
+    
+    float           : right;
+    padding         : 14 16;
+    display         : flex;
+    color           : red;
+    margin-right    : 50;
+    text-align      : center;
+    margin-top      : 30;
+}
+
+#logo{
+    
+    margin-right    : 20;
+    margin-left     : 20;
+    margin-top      : 10;
+    padding         : 14 16;
+    display         : inline-block;
+    color           : red;
+    width           : 20;
+    float           : left;
+
+}
+/*end*/
+
+
+/*Section slider*/
+
+#slider{
+    
+    display         : inline-block;
+    margin          : 0;
+    padding         : 0;
+    width           : 1260;
+    height          : 800;
+    background-color: grey;
+    
+    background-image: url("../img/skiing.jpg");
+    background-position : bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+
+#main-text{
+    
+    text-align      : center;
+    display         : inline-block;
+    height          : auto;
+    margin-top      : 150;
+    margin-left     : 350;
+    font-family     : monospace;
+    font-size       : 5em;
+    color           : white;
+    
+}
+
+/*endl*/
+
+
+/*Section midel*/
+
+
+#section-midel{
+    
+    display         : inline-block;
+    text-align      : center;
+    width           : 1260;
+    height          : 400;
+    color           : black;
+    
+}
+
+#text-snow{
+    
+    text-align      : center;
+    display         : inline-block;
+    height          : auto;
+    font-family     : FindetNemo;
+    font-size       : 3em;
+    margin-top      : 150;
+
+}
+
+
+#snowboard{
+    
+    display         : inline-block;
+    height          : 300;
+    width           : 1260;
+    margin-top      : 50;
+}
+
+#text-snow-sub{
+    
+    margin-top      : -50;
+    letter-spacing  : 1;
+}
+
+#sn{
+    
+    display         : inline-block;
+    margin-left     : 0;
+}
+
+#sn-1{
+    display         : inline-block;
+    margin-left     : 0;
+    
+}
+
+#sn-2{
+    display         : inline-block;
+    margin          :  0;
+}
+
+#sn-3{
+    
+    display         : inline-block;
+    margin-left     : 0;
+}
+
+#text-snow-extrem{
+    
+    text-align      : center;
+    margin-left     : 450;
+    width           : 400;
+    display         : flex;
+    letter-spacing  : 2;
+}
+
+
+/*end*/
+
+
+/*Section midle down*/
+
+#section-midel-down{
+    
+    display         : inline-block;
+    width           : 1260;
+    height          : 800;
+    margin-top      : 150;
+    background-color: black;
+    background-image: url("../img/skiing_dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#moun-text{
+    
+    text-align      : center;
+    display         : inline-block;
+    height          : auto;
+    margin-left     : 0;
+    font-size       : 3em;
+    color           : white;
+    margin-right    : 500;
+    margin-top      : 150;
+}
+
+#pag-text{
+    
+    text-align      : center;
+    display         : inline-block;
+    height          : auto;
+    margin-right    : 500;
+    color           : snow;
+    width           : 500;
+    font-size       : 15;
+}
+
+#features{
+    
+    margin-top      : 100;
+    display         : inline-block;
+    width           : 1260;
+    height          : 800;
+
+    
+}
+
+#fn-text{
+    
+    font-size       : 3em;
+}
+
+#ftn{
+    margin-top      : 50;
+    margin-left     : 100;
+    color           : black;
+    text-align      : left;
+    float           : left;
+}
+
+/*end*/
+
+
+
+/*footer*/
+
+
+footer{
+    
+   background-color: black;
+}
+#foot{
+    
+    background-color: #333;
+    width           : 1260;
+    height          : 700;
+    display         : inline-block;
+    color           : white;
+    
+}
+
+#footer1{
+    float           : left;
+    margin          : 80;
+    display         : flex;
+    padding         : 10;
+    margin-left     : 150; 
+}
+
+#footer2{
+    float           : left;
+    margin          : 80;
+    display         : flex;
+    padding         : 10;
+}
+
+
+#footer3{
+    float           : left;
+    margin          : 80;
+    display         : flex;
+    padding         : 10;
+}
+
+#footer4{
+    
+    float           : left;
+    margin-left     : 150;
+    padding         : 10;
+    display         : inline-block;
+    color           : white;
+    font-size       : 10;
+}
+
+
+/*end*/
+
+
+
+
+
+/*Button*/
+
+#btn-button{
+    
+    display         : flex;
+    margin-left     : 800;
+    margin-top      : -50;
+}
+
+#btn{
+    
+    background-color: #555555; 
+    border          : none;
+    color           : white;
+    padding         : 15 32;
+    text-align      : center;
+    text-decoration : none;
+    display         : inline-block;
+    font-size       : 16;
+    margin          : 4 2;
+    cursor          : pointer;
+}
+
+#btn:hover{
+    
+    background-color: orangered;
+}
+
+/*End*/
+
+
+
+
+
+/*Navbar*/
+nav{
+    
+    width           : 1260;
+    position        : fixed;
+}
+
+ul {
+    
+    list-style-type : none;
+    margin          : 0;
+    padding         : 0;
+    overflow        : hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float           : left;
+}
+
+li a {
+    display         : block;
+    color           : white;
+    text-align      : center;
+    padding         : 14 16;
+    margin-top      : 30;
+    text-decoration : none;
+}
+
+li a:hover {
+    background-color: orangered;
+}
+
+/*end*/
+
+
+/*Media querys*/
+
+@media only screen and (max-width: 500px) {
+    
+    
+    body{
+        width       : 500;
+    }
+    nav{
+        display     : none;
+    }
+    
+    #slider{
+        
+        width           : 500;
+        background-image: url("../img/skiing.jpg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size : cover;
+        background-attachment: fixed;
+    }
+    
+    #main-text{
+        margin-left     : 0;
+        font-size       : 4em;
+    }
+    
+    #btn-button{
+        margin-left     : 150;
+        margin-top      : 50; 
+    }
+    
+    #section-midel , #snowboard{
+        
+        width           : 500;
+    }
+    
+    #snowboard{
+        margin-bottom   : 800;
+    }
+    
+    #text-snow-extrem{
+        margin-left     : 100;
+    }
+    
+    #section-midel-down{
+        
+        width           : 500;
+        height          : 800;
+        margin-top      : 150;
+        background-color: black;
+        background-image: url("../img/skiing_dark.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
+    
+    #moun-text{
+        margin-right    : 0;
+    }
+    
+    #features{
+        width           : 500;
+        margin-bottom   : 850; 
+    }
+    
+    #foot{
+        width           : 500;
+        margin-bottom   : 0; 
+        flex            : auto;
+    }
+    
+    #footer2 ,  #footer3{
+        display         : none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
